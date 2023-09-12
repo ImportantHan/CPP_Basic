@@ -1,11 +1,13 @@
 // Cpp_Basic.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+// 입출력 헤더 파일
+#include "Cpp_Basic.h"
+#include "io.h"
 
 int main()
 {
-    std::cout << "Hello SeSAC!\n";
+    TimePassed();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
