@@ -7,3 +7,7 @@
 2. Kebab Case : unreal-engine-function-variable 
 3. Camel Case : unrealEngineFunctionVariable 
 4. Pascal Case : UnrealEngineFunctionVariable
+
+
+배열 변수 선언 시 크기 인덱스는 변수로 지정할 수 없음
+C++ 컴파일 언어 => 컴파일하는 시간에 배열 크기가 결정

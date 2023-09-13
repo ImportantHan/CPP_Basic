@@ -26,3 +26,12 @@ void Alphabet();
 void Structure();
 void Enum();
 void CallByValue();
+
+// ch06_pointer.cpp
+void PointerDefine();
+
+
+
+// 백준 문제 연습,,
+int Baekjoon();
+int Backjoon2563();
