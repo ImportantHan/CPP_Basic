@@ -1,7 +1,7 @@
 #include "io.h"
 
 int Baekjoon() {
-    
+
 
     return 0;
 }
@@ -57,6 +57,51 @@ int Backjoon2884() {
     else {
         cout << H << M - 45;
     }
+
+    return 0;
+}
+
+// 문자열 - 숫자의 합 (11720번)
+// => 아스키코드 '0' = 53
+int Backjoon11720() {
+    int N;
+    cin >> N;
+
+    string s;
+    cin >> s;
+
+    int sum = 0;
+    for (int i = 0; i < N; i++) {
+        sum += s[i] - '0';
+    }
+
+    cout << sum;
+
+    return 0;
+}
+
+// 문자열 - 단어의 개수 (1152번)
+// => cin은 공백을 포함하지 못함
+// => string 헤더파일 include 후 getline(cin, s)함수 사용
+#include "string"
+int Backjoon1152() {
+    string str;
+    getline(cin, str);
+
+    int num = 1;
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] == ' ') {
+            num++;
+        }
+    }
+    if (str[0] == ' ') {
+        num--;
+    }
+    if (str[str.length() - 1] == ' ') {
+        num--;
+    }
+
+    cout << num;
 
     return 0;
 }

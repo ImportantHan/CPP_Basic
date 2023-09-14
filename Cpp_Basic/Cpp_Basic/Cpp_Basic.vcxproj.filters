@@ -42,6 +42,9 @@
     <ClCompile Include="Ch05_structure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ch08_class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Basic.h">
@@ -50,10 +53,13 @@
     <ClInclude Include="io.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Ch10_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Guide.md">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
 </Project>

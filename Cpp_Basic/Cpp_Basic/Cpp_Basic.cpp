@@ -5,9 +5,14 @@
 #include "Cpp_Basic.h"
 #include "io.h"
 
+#include "Ch10_class.h";
+
 int main()
 {
-    Baekjoon();
+	Baekjoon();
+	//Car Sonata(80);
+	//Sonata.DriveVelocity();
+	//Sonata.DriveTime();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

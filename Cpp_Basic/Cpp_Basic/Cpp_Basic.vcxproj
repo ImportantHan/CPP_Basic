@@ -134,10 +134,12 @@
     <ClCompile Include="Ch05_structure.cpp" />
     <ClCompile Include="Ch06_pointer.cpp" />
     <ClCompile Include="Ch07_dynamic.cpp" />
+    <ClCompile Include="Ch08_class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
     <ClCompile Include="Baekjoon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch10_class.h" />
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="io.h" />
   </ItemGroup>
