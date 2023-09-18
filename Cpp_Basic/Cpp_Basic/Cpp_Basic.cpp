@@ -5,11 +5,65 @@
 #include "Cpp_Basic.h"
 #include "io.h"
 
-#include "Ch10_class.h";
+#include "Ch08_class.h"
+#include "Vehicle.h"
+#include "Animal.h"
+#include "Bike.h"
+#include "Atv.h"
+#include "Auto.h"
+
+#include "Arithmatic.h"
 
 int main()
 {
-	Baekjoon();
+	//Baekjoon();
+
+	// vehicle 클래스 정적선언(생성) - 선언된 인스턴스
+	Vehicle ray(2023, 10000000);
+	cout << "1차 가격 : ";
+	ray.PrintPrice();
+	// public 변수 변경(외부수정 가능)
+	ray.Price = 12000000;
+	cout << "2차 가격 : ";
+	ray.PrintPrice();
+	// private 변수 변경 불가!
+	// ray.year();
+	// method를 이욯애 변경
+	cout << "연식 변경 : ";
+	ray.SetYear(2024);
+	ray.PrintYear();
+	cout << "getyear : " << ray.GetYear() << '\n';
+
+	// Animal 클래스 동적선언(생성)
+	Animal* Dog = new Animal;
+	cout << "동적 선언 Animal finger : ";
+	Dog->PrintFinger();
+	delete Dog;
+
+	// 자식 클래스 생성
+	Atv Moto;
+	// 상속받은 Bike class의 멤버함수
+	Moto.PrintTire();
+	cout << "Moto price : " << Moto.Price << endl;
+	// Atv class 멤버
+	Moto.PrintPrice();
+
+	// 함수 오버로딩
+	Arithmatic Expression;
+	Expression.Sum(10);
+	Expression.Sum(10, 40);
+	Expression.Sum(33.3f);
+
+	// 함수 오버라이딩
+	Moto.Print();
+
+	// 생성자가 명시적으로 선언되었을 때
+	// 자식 클래스 선언 : 명시적 선언
+	/*Auto Mobile();
+	Mobile().SetYear(2020);
+	cout << "Mobile get year : " << Mobile().GetYear();*/
+
+	// Ch08_class 실행 함수
 	//Car Sonata(80);
 	//Sonata.DriveVelocity();
 	//Sonata.DriveTime();

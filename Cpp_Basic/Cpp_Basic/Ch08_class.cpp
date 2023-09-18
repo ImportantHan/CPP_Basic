@@ -1,5 +1,5 @@
 #include "io.h";
-#include "Ch10_class.h";
+#include "Ch08_class.h";
 
 void Car::DriveVelocity() {
 	cout << Velocity << "km" << "\n";
