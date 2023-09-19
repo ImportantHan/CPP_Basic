@@ -4,6 +4,10 @@
 using namespace std;
 
 // Constructor Á¤ÀÇ
+Vehicle::Vehicle() {
+	cout << "Vehicle Constructor" << '\n';
+}
+
 Vehicle::Vehicle(int _Year, int _Price) {
 	Year = _Year;
 	Price = _Price;

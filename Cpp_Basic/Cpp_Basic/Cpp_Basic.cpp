@@ -19,7 +19,7 @@ int main()
 	//Baekjoon();
 
 	// vehicle 클래스 정적선언(생성) - 선언된 인스턴스
-	Vehicle ray(2023, 10000000);
+	Vehicle ray(2023, 10000000); // 생성,삭제
 	cout << "1차 가격 : ";
 	ray.PrintPrice();
 	// public 변수 변경(외부수정 가능)
@@ -27,12 +27,14 @@ int main()
 	cout << "2차 가격 : ";
 	ray.PrintPrice();
 	// private 변수 변경 불가!
-	// ray.year();
+	// ray.year();S
 	// method를 이욯애 변경
 	cout << "연식 변경 : ";
 	ray.SetYear(2024);
 	ray.PrintYear();
 	cout << "getyear : " << ray.GetYear() << '\n';
+
+	Vehicle Sonata; // 생성,삭제
 
 	// Animal 클래스 동적선언(생성)
 	Animal* Dog = new Animal;
@@ -59,9 +61,9 @@ int main()
 
 	// 생성자가 명시적으로 선언되었을 때
 	// 자식 클래스 선언 : 명시적 선언
-	/*Auto Mobile();
-	Mobile().SetYear(2020);
-	cout << "Mobile get year : " << Mobile().GetYear();*/
+	cout << "---------------------------" << '\n';
+	Auto Mobile; // 생성,삭제
+	Auto SmartMobile(2024, 7000000); // 생성,삭제
 
 	// Ch08_class 실행 함수
 	//Car Sonata(80);
