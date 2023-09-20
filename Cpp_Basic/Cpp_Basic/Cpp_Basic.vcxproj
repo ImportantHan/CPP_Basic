@@ -139,6 +139,7 @@
     <ClCompile Include="Ch05_structure.cpp" />
     <ClCompile Include="Ch06_pointer.cpp" />
     <ClCompile Include="Ch07_dynamic.cpp" />
+    <ClCompile Include="Ch09_variousclass.cpp" />
     <ClCompile Include="Vehivle.cpp" />
     <ClCompile Include="Ch08_class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />

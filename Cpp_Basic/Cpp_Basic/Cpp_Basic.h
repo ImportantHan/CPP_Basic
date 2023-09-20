@@ -33,8 +33,17 @@ void PointerDefine();
 // Ch07_dynamic.cpp
 void DynamicVariable();
 
-// 백준 문제 연습,,
+// Ch09_variousclass.cpp
+void VariousClass();
+
+
+
+
+
+// 백준 문제 연습,,,
 int Baekjoon();
-int Backjoon2563();
 int Backjoon2884();
 int Backjoon11720();
+int Backjoon1152();
+int Backjoon1157();
+int Backjoon2563();

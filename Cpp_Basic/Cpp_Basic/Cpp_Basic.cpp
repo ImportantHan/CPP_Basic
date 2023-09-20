@@ -16,7 +16,15 @@
 
 int main()
 {
-	//Baekjoon();
+
+	Baekjoon();
+
+	/*
+	
+	// Ch08_class 실행 함수
+	//Car Sonata(80);
+	//Sonata.DriveVelocity();
+	//Sonata.DriveTime();
 
 	// vehicle 클래스 정적선언(생성) - 선언된 인스턴스
 	Vehicle ray(2023, 10000000); // 생성,삭제
@@ -65,10 +73,10 @@ int main()
 	Auto Mobile; // 생성,삭제
 	Auto SmartMobile(2024, 7000000); // 생성,삭제
 
-	// Ch08_class 실행 함수
-	//Car Sonata(80);
-	//Sonata.DriveVelocity();
-	//Sonata.DriveTime();
+	cout << "---------------------------" << '\n';
+
+	*/
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
