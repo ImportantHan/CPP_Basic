@@ -2,26 +2,28 @@
 #include <string>
 
 int Baekjoon() {
-    int N;
-    cin >> N;
-
-    int result = N;
-    for (int i = 0; i < N; i++) {
+    double sum = 0;
+    for (int i = 0; i < 20; i++) {
         string s;
         cin >> s;
 
-        int arr[26] = { 0 };
-        for (int j = 0; j < s.size(); j++) {
-            if ((arr[j] != arr[j - 1]) && (arr[s[j] - 'a'] > 0)) {
-                cout << arr[s[j] - 'a'] << endl;
-                result--;
-                break;
-            }
-            arr[s[j] - 'a']++;
+        double d;
+        cin >> d;
+
+        string sg;
+        cin >> sg;
+
+        if (sg == "F") {
+            sum += 0.0;
+        }
+        else {
+            sum += d;
         }
     }
 
-    cout << result;
+    cout.precision(6);
+    cout << fixed;
+    cout << sum / 20;
 
     return 0;
 }

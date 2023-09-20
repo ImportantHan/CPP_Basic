@@ -1,4 +1,6 @@
-﻿  Baekjoon.cpp
+﻿  Ch11_PureVirtualChild.cpp
+  Cpp_Basic.cpp
 C:\Users\ASUS\CPP_PL\Cpp_Basic\Cpp_Basic\Cpp_Basic\io.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\ASUS\CPP_PL\Cpp_Basic\Cpp_Basic\Cpp_Basic\Baekjoon.cpp(101,29): warning C4018: '<': signed/unsigned mismatch
-  Cpp_Basic.vcxproj -> C:\Users\ASUS\Cpp_PL\Cpp_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe
+  Generating Code...
+Cpp_Basic.obj : error LNK2019: unresolved external symbol "public: virtual void __cdecl PureVirtualChild::PrintClass(void)" (?PrintClass@PureVirtualChild@@UEAAXXZ) referenced in function main
+C:\Users\ASUS\Cpp_PL\Cpp_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe : fatal error LNK1120: 1 unresolved externals

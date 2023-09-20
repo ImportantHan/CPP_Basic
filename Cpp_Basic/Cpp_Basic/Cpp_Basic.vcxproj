@@ -140,6 +140,10 @@
     <ClCompile Include="Ch06_pointer.cpp" />
     <ClCompile Include="Ch07_dynamic.cpp" />
     <ClCompile Include="Ch09_variousclass.cpp" />
+    <ClCompile Include="Ch10_VirtualChild.cpp" />
+    <ClCompile Include="Ch10_VirtualParent.cpp" />
+    <ClCompile Include="Ch11_PureVirtualChild.cpp" />
+    <ClCompile Include="Ch11_PureVirtualParent.cpp" />
     <ClCompile Include="Vehivle.cpp" />
     <ClCompile Include="Ch08_class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
@@ -151,6 +155,10 @@
     <ClInclude Include="Auto.h" />
     <ClInclude Include="Bike.h" />
     <ClInclude Include="Ch08_class.h" />
+    <ClInclude Include="Ch10_VirtualChild.h" />
+    <ClInclude Include="Ch10_VirtualParent.h" />
+    <ClInclude Include="Ch11_PureVirtualChild.h" />
+    <ClInclude Include="Ch11_PureVirtualParent.h" />
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="Animal.h" />
     <ClInclude Include="io.h" />

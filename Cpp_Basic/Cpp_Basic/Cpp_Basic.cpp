@@ -14,10 +14,15 @@
 
 #include "Arithmatic.h"
 
+#include "Ch10_VirtualChild.h"
+#include "Ch10_VirtualParent.h"
+#include "Ch11_PureVirtualParent.h"
+#include "Ch11_PureVirtualChild.h"
+
 int main()
 {
 
-	Baekjoon();
+	//Baekjoon();
 
 	/*
 	
@@ -77,6 +82,37 @@ int main()
 
 	*/
 
+	/*
+	// 가상함수
+	VirtualParent* Parent = new VirtualParent;
+	VirtualChild* Child = new VirtualChild;
+
+	Parent->PrintClass();
+	Child->PrintClass(); // overriding
+
+	Parent = Child;
+
+	Parent->PrintClass();
+
+	cout << endl;
+
+	VirtualParent2* Parent2 = new VirtualParent2;
+	VirtualChild2* Child2 = new VirtualChild2;
+
+	Parent2->PrintClass();
+	Child2->PrintClass(); // overriding
+
+	Parent2 = Child2;
+
+	Parent2->PrintClass();
+	*/
+
+	// PureVirtualParent PureParent; // 추상클래스는 단독으로 객체 생성할 수 없음
+	// 추상 클래스를 상속받는 자식 클래스는 순수 가상함수를 재정의 해야함
+	PureVirtualChild PureChild;
+	PureChild.Print();
+	PureChild.PrintClass();
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
