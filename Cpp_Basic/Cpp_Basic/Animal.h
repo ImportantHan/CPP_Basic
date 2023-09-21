@@ -6,7 +6,8 @@ private:
 	int Finger;
 
 public:
-	Animal();
+	Animal(); // default constructor
+	Animal(int _Finger, int _Leg);
 	void PrintFinger();
 	void PrintLeg();
 };

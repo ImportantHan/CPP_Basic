@@ -144,6 +144,7 @@
     <ClCompile Include="Ch10_VirtualParent.cpp" />
     <ClCompile Include="Ch11_PureVirtualChild.cpp" />
     <ClCompile Include="Ch11_PureVirtualParent.cpp" />
+    <ClCompile Include="Ch12_template.cpp" />
     <ClCompile Include="Vehivle.cpp" />
     <ClCompile Include="Ch08_class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />

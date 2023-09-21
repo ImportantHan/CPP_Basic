@@ -37,8 +37,14 @@ void DynamicVariable();
 void VariousClass();
 
 
-
-
+// Ch12_template.cpp
+int NormalSum(int a, int b);
+float NormalSum(float a, float b);
+// template(generic in JAVA)
+template <typename T>
+T TemplateSum(T a, T b) {
+	return a + b;
+}
 
 // 백준 문제 연습,,,
 int Baekjoon();

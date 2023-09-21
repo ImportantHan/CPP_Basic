@@ -22,7 +22,8 @@
 int main()
 {
 
-	//Baekjoon();
+	Baekjoon();
+
 
 	/*
 	
@@ -109,9 +110,9 @@ int main()
 
 	// PureVirtualParent PureParent; // 추상클래스는 단독으로 객체 생성할 수 없음
 	// 추상 클래스를 상속받는 자식 클래스는 순수 가상함수를 재정의 해야함
-	PureVirtualChild PureChild;
-	PureChild.Print();
-	PureChild.PrintClass();
+	// PureVirtualChild PureChild;
+	// PureChild.Print();
+	// PureChild.PrintClass();
 	
 }
 

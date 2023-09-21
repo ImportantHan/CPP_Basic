@@ -2,28 +2,24 @@
 #include <string>
 
 int Baekjoon() {
-    double sum = 0;
-    for (int i = 0; i < 20; i++) {
-        string s;
-        cin >> s;
+    int N, B;
+    cin >> N >> B;
 
-        double d;
-        cin >> d;
-
-        string sg;
-        cin >> sg;
-
-        if (sg == "F") {
-            sum += 0.0;
+    string result;
+    while (N/B != 0) {
+        if (N % B > 9) {
+            result = char(N % B - 10 + 'A') + result;
+            cout << result << ", ";
         }
         else {
-            sum += d;
+            result = to_string(N % B) + result;
+            cout << result << ", ";
         }
+
+        N /= B;
     }
 
-    cout.precision(6);
-    cout << fixed;
-    cout << sum / 20;
+    cout << result;
 
     return 0;
 }
